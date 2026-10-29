@@ -1,0 +1,14 @@
+Bài 3 : Ngăn chặn quá tải lưu trữ khi đồng bộ mã nguồn
+*Phần 1: Báo cáo phân tích (I\O)
+->Khi bấm ctrl+S : hệ điều hành lưu trữ trực tiếp lại ổ cứng
+->Quét các file và lọc bỏ những thư mục không cần thiết như file rác ,"node_modules"
+->File lọc xong được đẩy lên
+->Nhận biểu tượng tích xanh xác nhận hoàn tất
+*Phần 2:
+*folder_lam_viec
+|         
+file_ma_nguon: Chứa mã nguồn dự án, kèm tệp .gitignore để thiết lập loại trừ hoàn toàn thư mục node_modules khỏi tiến trình đồng bộ.
+|
+file_documents: Chứa toàn bộ tài liệu kỹ thuật, đặc tả API và tài liệu thiết kế hệ thống.
+|
+file_quan_li_du_lieu: Chứa tài nguyên đồ họa, hình ảnh, video phục vụ cho dự án.
